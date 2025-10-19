@@ -1,0 +1,13 @@
+[package]
+name = "browsearcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+webbrowser = "1.0.5"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_yaml = "0.9"
+dirs = "6.0.0"
+regex = "1.12.2"
+derive_builder = "0.20.0"
